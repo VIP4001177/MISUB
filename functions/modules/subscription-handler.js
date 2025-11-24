@@ -54,7 +54,7 @@ export async function handleMisubRequest(context) {
     let effectiveSubConfig;
     let isProfileExpired = false; // Moved declaration here
 
-    const DEFAULT_EXPIRED_NODE = `trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:443#${encodeURIComponent('您的订阅已失效')}`;
+    const DEFAULT_EXPIRED_NODE = `trojan://00000000-0000-0000-0000-000000000000@127.0.0.1:443#${encodeURIComponent('客服微信 EX3116')}`;
 
     if (profileIdentifier) {
         // [修正] 使用 config 變量
